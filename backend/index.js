@@ -8,9 +8,9 @@ const { application } = require("express");
 
 const db= mysql.createPool({
     host:"localhost",
-    user:"root",
-    password:"fast123",
-    database:"airport_management"
+    user:"admin",
+    password:"IndiGo",
+    database:"Indigo"
 });
 
 
